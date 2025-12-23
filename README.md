@@ -69,10 +69,16 @@ Hands-on implementation of AWS Virtual Private Cloud (VPC) security with multipl
 - [ ] Implement AWS Network Firewall
 - [ ] Create automated security compliance checks
 
+## 📸 Implementation Proof
+Screenshots of the implemented configuration are available in the [screenshots/](screenshots/) folder:
+- AWS Console configurations
+- Service dashboards
+- Security settings
+
 ---
 
 ## 👨‍💻 About
 **Renaldi** | Cloud Security Learner  
-[GitHub Profile](https://github.com/renaldi136) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub Profile](https://github.com/SilentVeil) | [LinkedIn](https://linkedin.com/in/yourprofile)
 
 *Note: This project was completed as part of hands-on cloud security training.*
