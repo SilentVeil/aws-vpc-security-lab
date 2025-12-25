@@ -69,14 +69,38 @@ Hands-on implementation of AWS Virtual Private Cloud (VPC) security with multipl
 - [ ] Implement AWS Network Firewall
 - [ ] Create automated security compliance checks
 
-## 📸 Implementation Proof
-Screenshots of the implemented configuration are available in the [screenshots/](screenshots/) folder:
-- AWS Console configurations
-- Service dashboards
-- Security settings
+## 🚀 Lab Implementation: VPC Creation & Web Server Deployment
 
----
+### VPC Foundation Setup
+![VPC Wizard Configuration](screenshots/vpc-wizard-config.png)
+*VPC creation with CIDR 10.0.0.0/16, public/private subnet design, and NAT gateway configuration.*
 
+### Multi-AZ Network Deployment
+![Subnet Deployment](screenshots/vpc-subnets-list.png)
+*Four subnets deployed across availability zones for high availability and fault tolerance.*
+
+### Routing Configuration
+![Public Route Table](screenshots/vpc-public-route-table.png)
+*Public route table with internet gateway route enabling public subnet internet access.*
+
+### Security Implementation
+![Web Security Group](screenshots/vpc-security-group-config.png)
+*Security group configured to allow HTTP traffic while maintaining other ports secured.*
+
+### Production Web Server Deployment
+![EC2 Launch Configuration](screenshots/ec2-launch-config.png)
+*Web server instance deployment in Public Subnet 2 with automated bootstrap script.*
+
+![EC2 Instance Running](screenshots/ec2-instance-running.png)
+*Web Server 1 instance with 2/2 status checks passed, confirming successful deployment.*
+
+### Technical Specifications
+- **VPC CIDR:** 10.0.0.0/16
+- **Public Subnets:** 10.0.0.0/24, 10.0.2.0/24 (Route to Internet Gateway)
+- **Private Subnets:** 10.0.1.0/24, 10.0.3.0/24 (Route to NAT Gateway)
+- **Security Group:** HTTP (80) from 0.0.0.0/0
+- **Instance:** t3.micro in Public Subnet 2 with auto-assigned public IP
+  
 ## 👨‍💻 About
 **Renaldi** | Cloud Security Learner  
 [GitHub Profile](https://github.com/SilentVeil) | [LinkedIn](https://linkedin.com/in/yourprofile)
