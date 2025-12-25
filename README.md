@@ -76,7 +76,7 @@ Hands-on implementation of AWS Virtual Private Cloud (VPC) security with multipl
 *VPC creation with CIDR 10.0.0.0/16, public/private subnet design, and NAT gateway configuration.*
 
 ### Multi-AZ Network Deployment
-![Subnet Deployment](screenshots/vpc-subnets-list.png)
+![Subnet Deployment](screenshots/vpc-4-subnets-list.png)
 *Four subnets deployed across availability zones for high availability and fault tolerance.*
 
 ### Routing Configuration
