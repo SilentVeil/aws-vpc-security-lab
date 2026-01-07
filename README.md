@@ -103,6 +103,6 @@ Hands-on implementation of AWS Virtual Private Cloud (VPC) security with multipl
   
 ## 👨‍💻 About
 **Renaldi** | Cloud Security Learner  
-[GitHub Profile](https://github.com/SilentVeil) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub Profile](https://github.com/SilentVeil) | [LinkedIn](https://linkedin.com/in/renaldi-tan)
 
 *Note: This project was completed as part of hands-on cloud security training.*
